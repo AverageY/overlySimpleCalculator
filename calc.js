@@ -5,7 +5,7 @@ var secondNum1 = parseInt(secondNum);
 var sum = firstNum1+secondNum1;
 var sub = firstNum1-secondNum1;
 var pro = firstNum1*secondNum1;
-var div = firstNum1+secondNum1;
+var div = firstNum1/secondNum1;
 
 function add(){
     document.querySelector(".num").innerHTML = "The ans is " + sum;
